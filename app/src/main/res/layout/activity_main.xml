@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/greetingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#BE020202"
+        android:hint="Введите приветствие"
+        android:textColor="#BF000000"
+        android:textColorHint="#BF000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4081"
+        android:text="OK"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Место для отображения приветствия"
+        android:textColor="#5AFF5722"
+        android:textSize="22sp" />
+
+</LinearLayout>
